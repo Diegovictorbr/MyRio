@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Praticando.xcodeproj">
+      location = "self:/Users/md10/Desktop/Praticando/MyRio.xcodeproj">
    </FileRef>
 </Workspace>

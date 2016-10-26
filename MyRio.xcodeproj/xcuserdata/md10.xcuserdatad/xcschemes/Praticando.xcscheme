@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0D2601D91D99D017009FEEDB"
-               BuildableName = "Praticando.app"
-               BlueprintName = "Praticando"
-               ReferencedContainer = "container:Praticando.xcodeproj">
+               BuildableName = "MyRio.app"
+               BlueprintName = "MyRio"
+               ReferencedContainer = "container:MyRio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0D2601ED1D99D017009FEEDB"
-               BuildableName = "PraticandoTests.xctest"
-               BlueprintName = "PraticandoTests"
-               ReferencedContainer = "container:Praticando.xcodeproj">
+               BuildableName = "MyRioTests.xctest"
+               BlueprintName = "MyRioTests"
+               ReferencedContainer = "container:MyRio.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0D2601F81D99D018009FEEDB"
-               BuildableName = "PraticandoUITests.xctest"
-               BlueprintName = "PraticandoUITests"
-               ReferencedContainer = "container:Praticando.xcodeproj">
+               BuildableName = "MyRioUITests.xctest"
+               BlueprintName = "MyRioUITests"
+               ReferencedContainer = "container:MyRio.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0D2601D91D99D017009FEEDB"
-            BuildableName = "Praticando.app"
-            BlueprintName = "Praticando"
-            ReferencedContainer = "container:Praticando.xcodeproj">
+            BuildableName = "MyRio.app"
+            BlueprintName = "MyRio"
+            ReferencedContainer = "container:MyRio.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0D2601D91D99D017009FEEDB"
-            BuildableName = "Praticando.app"
-            BlueprintName = "Praticando"
-            ReferencedContainer = "container:Praticando.xcodeproj">
+            BuildableName = "MyRio.app"
+            BlueprintName = "MyRio"
+            ReferencedContainer = "container:MyRio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0D2601D91D99D017009FEEDB"
-            BuildableName = "Praticando.app"
-            BlueprintName = "Praticando"
-            ReferencedContainer = "container:Praticando.xcodeproj">
+            BuildableName = "MyRio.app"
+            BlueprintName = "MyRio"
+            ReferencedContainer = "container:MyRio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

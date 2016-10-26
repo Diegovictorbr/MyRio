@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Praticando/Start.swift"
+            timestampString = "496625984.259287"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Praticando.Start.__deallocating_deinit"
+                  moduleName = "Praticando"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/md10/Desktop/Praticando/Praticando/Start.swift"
+                  timestampString = "496625984.339624"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Praticando.Start.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Praticando.Start"
+                  moduleName = "Praticando"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/md10/Desktop/Praticando/Praticando/Start.swift"
+                  timestampString = "496625984.343517"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Praticando.Start.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Praticando.Start"
+                  moduleName = "Praticando"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/md10/Desktop/Praticando/Praticando/Start.swift"
+                  timestampString = "496625984.346129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Praticando.Start.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Praticando.Start&gt;"
+                  moduleName = "Praticando"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/md10/Desktop/Praticando/Praticando/Start.swift"
+                  timestampString = "496625984.348624"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Praticando.Start.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Praticando.Start&gt;"
+                  moduleName = "Praticando"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/md10/Desktop/Praticando/Praticando/Start.swift"
+                  timestampString = "496625984.351089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

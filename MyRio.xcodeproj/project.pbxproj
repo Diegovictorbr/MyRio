@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0D2601DE1D99D017009FEEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2601DD1D99D017009FEEDB /* AppDelegate.swift */; };
-		0D2601E01D99D017009FEEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2601DF1D99D017009FEEDB /* ViewController.swift */; };
 		0D2601E31D99D017009FEEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2601E11D99D017009FEEDB /* Main.storyboard */; };
 		0D2601E51D99D017009FEEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2601E41D99D017009FEEDB /* Assets.xcassets */; };
 		0D2601E81D99D017009FEEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2601E61D99D017009FEEDB /* LaunchScreen.storyboard */; };
 		0D2601F31D99D017009FEEDB /* PraticandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2601F21D99D017009FEEDB /* PraticandoTests.swift */; };
 		0D2601FE1D99D018009FEEDB /* PraticandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2601FD1D99D018009FEEDB /* PraticandoUITests.swift */; };
+		0D26020E1D99D285009FEEDB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D26020D1D99D285009FEEDB /* SWRevealViewController.m */; };
+		0D2602131D99FBE6009FEEDB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2602121D99FBE6009FEEDB /* SwiftyJSON.swift */; };
+		0D38CD791D9B2F74007010C4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D38CD781D9B2F74007010C4 /* Helpers.swift */; };
+		0D6605B61DA70FD300DAD2E3 /* Atlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6605B51DA70FD300DAD2E3 /* Atlas.swift */; };
+		0D6CFC9D1DA71C8A000D2644 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6CFC9C1DA71C8A000D2644 /* Hospital.swift */; };
+		0DCC3DC61DA7089E00FDB7DA /* hospitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DCC3DC51DA7089E00FDB7DA /* hospitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D2601DA1D99D017009FEEDB /* Praticando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Praticando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2601DA1D99D017009FEEDB /* MyRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2601DD1D99D017009FEEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D2601DF1D99D017009FEEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D2601E21D99D017009FEEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D2601E41D99D017009FEEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2601E71D99D017009FEEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2601E91D99D017009FEEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D2601EE1D99D017009FEEDB /* PraticandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraticandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2601EE1D99D017009FEEDB /* MyRioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2601F21D99D017009FEEDB /* PraticandoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraticandoTests.swift; sourceTree = "<group>"; };
 		0D2601F41D99D017009FEEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D2601F91D99D018009FEEDB /* PraticandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraticandoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2601F91D99D018009FEEDB /* MyRioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2601FD1D99D018009FEEDB /* PraticandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraticandoUITests.swift; sourceTree = "<group>"; };
 		0D2601FF1D99D018009FEEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D26020B1D99D284009FEEDB /* Praticando-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Praticando-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D26020C1D99D285009FEEDB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0D26020D1D99D285009FEEDB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0D2602121D99FBE6009FEEDB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
+		0D38CD781D9B2F74007010C4 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		0D6605B51DA70FD300DAD2E3 /* Atlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atlas.swift; sourceTree = "<group>"; };
+		0D6CFC9C1DA71C8A000D2644 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		0DCC3DC51DA7089E00FDB7DA /* hospitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hospitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +99,9 @@
 		0D2601DB1D99D017009FEEDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D2601DA1D99D017009FEEDB /* Praticando.app */,
-				0D2601EE1D99D017009FEEDB /* PraticandoTests.xctest */,
-				0D2601F91D99D018009FEEDB /* PraticandoUITests.xctest */,
+				0D2601DA1D99D017009FEEDB /* MyRio.app */,
+				0D2601EE1D99D017009FEEDB /* MyRioTests.xctest */,
+				0D2601F91D99D018009FEEDB /* MyRioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				0D2601DD1D99D017009FEEDB /* AppDelegate.swift */,
-				0D2601DF1D99D017009FEEDB /* ViewController.swift */,
+				0D6605B51DA70FD300DAD2E3 /* Atlas.swift */,
+				0D38CD781D9B2F74007010C4 /* Helpers.swift */,
+				0D6CFC9C1DA71C8A000D2644 /* Hospital.swift */,
+				0DCC3DC51DA7089E00FDB7DA /* hospitals.json */,
 				0D2601E11D99D017009FEEDB /* Main.storyboard */,
 				0D2601E41D99D017009FEEDB /* Assets.xcassets */,
 				0D2601E61D99D017009FEEDB /* LaunchScreen.storyboard */,
 				0D2601E91D99D017009FEEDB /* Info.plist */,
+				0D2602111D99E95E009FEEDB /* Libraries */,
 			);
 			path = Praticando;
 			sourceTree = "<group>";
@@ -125,12 +141,23 @@
 			path = PraticandoUITests;
 			sourceTree = "<group>";
 		};
+		0D2602111D99E95E009FEEDB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0D2602121D99FBE6009FEEDB /* SwiftyJSON.swift */,
+				0D26020B1D99D284009FEEDB /* Praticando-Bridging-Header.h */,
+				0D26020C1D99D285009FEEDB /* SWRevealViewController.h */,
+				0D26020D1D99D285009FEEDB /* SWRevealViewController.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D2601D91D99D017009FEEDB /* Praticando */ = {
+		0D2601D91D99D017009FEEDB /* MyRio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2602021D99D018009FEEDB /* Build configuration list for PBXNativeTarget "Praticando" */;
+			buildConfigurationList = 0D2602021D99D018009FEEDB /* Build configuration list for PBXNativeTarget "MyRio" */;
 			buildPhases = (
 				0D2601D61D99D017009FEEDB /* Sources */,
 				0D2601D71D99D017009FEEDB /* Frameworks */,
@@ -140,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = Praticando;
+			name = MyRio;
 			productName = Praticando;
-			productReference = 0D2601DA1D99D017009FEEDB /* Praticando.app */;
+			productReference = 0D2601DA1D99D017009FEEDB /* MyRio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0D2601ED1D99D017009FEEDB /* PraticandoTests */ = {
+		0D2601ED1D99D017009FEEDB /* MyRioTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2602051D99D018009FEEDB /* Build configuration list for PBXNativeTarget "PraticandoTests" */;
+			buildConfigurationList = 0D2602051D99D018009FEEDB /* Build configuration list for PBXNativeTarget "MyRioTests" */;
 			buildPhases = (
 				0D2601EA1D99D017009FEEDB /* Sources */,
 				0D2601EB1D99D017009FEEDB /* Frameworks */,
@@ -158,14 +185,14 @@
 			dependencies = (
 				0D2601F01D99D017009FEEDB /* PBXTargetDependency */,
 			);
-			name = PraticandoTests;
+			name = MyRioTests;
 			productName = PraticandoTests;
-			productReference = 0D2601EE1D99D017009FEEDB /* PraticandoTests.xctest */;
+			productReference = 0D2601EE1D99D017009FEEDB /* MyRioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0D2601F81D99D018009FEEDB /* PraticandoUITests */ = {
+		0D2601F81D99D018009FEEDB /* MyRioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2602081D99D018009FEEDB /* Build configuration list for PBXNativeTarget "PraticandoUITests" */;
+			buildConfigurationList = 0D2602081D99D018009FEEDB /* Build configuration list for PBXNativeTarget "MyRioUITests" */;
 			buildPhases = (
 				0D2601F51D99D018009FEEDB /* Sources */,
 				0D2601F61D99D018009FEEDB /* Frameworks */,
@@ -176,9 +203,9 @@
 			dependencies = (
 				0D2601FB1D99D018009FEEDB /* PBXTargetDependency */,
 			);
-			name = PraticandoUITests;
+			name = MyRioUITests;
 			productName = PraticandoUITests;
-			productReference = 0D2601F91D99D018009FEEDB /* PraticandoUITests.xctest */;
+			productReference = 0D2601F91D99D018009FEEDB /* MyRioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					0D2601D91D99D017009FEEDB = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					0D2601ED1D99D017009FEEDB = {
@@ -207,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D2601D51D99D017009FEEDB /* Build configuration list for PBXProject "Praticando" */;
+			buildConfigurationList = 0D2601D51D99D017009FEEDB /* Build configuration list for PBXProject "MyRio" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D2601D91D99D017009FEEDB /* Praticando */,
-				0D2601ED1D99D017009FEEDB /* PraticandoTests */,
-				0D2601F81D99D018009FEEDB /* PraticandoUITests */,
+				0D2601D91D99D017009FEEDB /* MyRio */,
+				0D2601ED1D99D017009FEEDB /* MyRioTests */,
+				0D2601F81D99D018009FEEDB /* MyRioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +262,7 @@
 			files = (
 				0D2601E81D99D017009FEEDB /* LaunchScreen.storyboard in Resources */,
 				0D2601E51D99D017009FEEDB /* Assets.xcassets in Resources */,
+				0DCC3DC61DA7089E00FDB7DA /* hospitals.json in Resources */,
 				0D2601E31D99D017009FEEDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2601E01D99D017009FEEDB /* ViewController.swift in Sources */,
 				0D2601DE1D99D017009FEEDB /* AppDelegate.swift in Sources */,
+				0D6605B61DA70FD300DAD2E3 /* Atlas.swift in Sources */,
+				0D2602131D99FBE6009FEEDB /* SwiftyJSON.swift in Sources */,
+				0D26020E1D99D285009FEEDB /* SWRevealViewController.m in Sources */,
+				0D38CD791D9B2F74007010C4 /* Helpers.swift in Sources */,
+				0D6CFC9D1DA71C8A000D2644 /* Hospital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +318,12 @@
 /* Begin PBXTargetDependency section */
 		0D2601F01D99D017009FEEDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D2601D91D99D017009FEEDB /* Praticando */;
+			target = 0D2601D91D99D017009FEEDB /* MyRio */;
 			targetProxy = 0D2601EF1D99D017009FEEDB /* PBXContainerItemProxy */;
 		};
 		0D2601FB1D99D018009FEEDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D2601D91D99D017009FEEDB /* Praticando */;
+			target = 0D2601D91D99D017009FEEDB /* MyRio */;
 			targetProxy = 0D2601FA1D99D018009FEEDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,10 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Praticando/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.edu.infnet.aula1.Praticando;
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.infnet.aula1.MyRio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Praticando/Praticando-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +460,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Praticando/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.edu.infnet.aula1.Praticando;
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.infnet.aula1.MyRio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Praticando/Praticando-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -442,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.edu.infnet.aula1.PraticandoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Praticando.app/Praticando";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRio.app/MyRio";
 			};
 			name = Debug;
 		};
@@ -456,7 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.edu.infnet.aula1.PraticandoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Praticando.app/Praticando";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRio.app/MyRio";
 			};
 			name = Release;
 		};
@@ -489,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D2601D51D99D017009FEEDB /* Build configuration list for PBXProject "Praticando" */ = {
+		0D2601D51D99D017009FEEDB /* Build configuration list for PBXProject "MyRio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2602001D99D018009FEEDB /* Debug */,
@@ -498,29 +536,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D2602021D99D018009FEEDB /* Build configuration list for PBXNativeTarget "Praticando" */ = {
+		0D2602021D99D018009FEEDB /* Build configuration list for PBXNativeTarget "MyRio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2602031D99D018009FEEDB /* Debug */,
 				0D2602041D99D018009FEEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0D2602051D99D018009FEEDB /* Build configuration list for PBXNativeTarget "PraticandoTests" */ = {
+		0D2602051D99D018009FEEDB /* Build configuration list for PBXNativeTarget "MyRioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2602061D99D018009FEEDB /* Debug */,
 				0D2602071D99D018009FEEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0D2602081D99D018009FEEDB /* Build configuration list for PBXNativeTarget "PraticandoUITests" */ = {
+		0D2602081D99D018009FEEDB /* Build configuration list for PBXNativeTarget "MyRioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2602091D99D018009FEEDB /* Debug */,
 				0D26020A1D99D018009FEEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
