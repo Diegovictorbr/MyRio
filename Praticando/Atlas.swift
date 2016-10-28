@@ -9,10 +9,10 @@ class Atlas: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
     @IBOutlet weak var mapa: MKMapView!
     let locationManager = CLLocationManager()
     
-    //Estações de metrô
+    //Metro stations
     let metro = "http://dadosabertos.rio.rj.gov.br/metro/api/v1/GeoJSON/Estacoes.cfm?token=40A22AF7-A9C6-86D6-E211ABA64BF73830&filter="
     
-    //Pontos turísticos do Rio de Janeiro
+    //Rio de Janeiro's attractions
     let pontos = "http://dadosabertos.rio.rj.gov.br/PontosTuristicosV2/api/v1/rest/PontosTuristicosV2.cfm?token=277B41FC-DFDD-8C38-0FE2BC8053FC129D&pretty=false&filter="
     
     override func viewDidLoad()
